@@ -15,7 +15,7 @@ def verificar_adivinanza(e,page):
 
     elif adivinanza_usuario < numero_secreto:
         text_resultado.value="¡Fallaste! El número secreto es mayor"
-        img.src="mal.png"
+        img.src="boing.png"
         page.add(ft.Audio(src="boing.mp3",autoplay=True))
 
     else:
